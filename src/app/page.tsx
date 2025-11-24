@@ -5,6 +5,7 @@ import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon, XIcon } from '@/components/SocialIcons'
+import avatar from '@/images/avatar.jpg'
 import montgoLogo from '@/images/logos/montgo_studios.png'
 import noxcrewLogo from '@/images/logos/noxcrew.png'
 import bbLogo from '@/images/logos/bb.webp'
@@ -253,6 +254,11 @@ export default async function Home() {
   return (
     <>
       <Container className="mt-9">
+        <Image
+          src={avatar}
+          alt="Profile Picture"
+          className="mb-4 size-28 rounded-full"
+        />
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             Software developer, game designer, community manager.

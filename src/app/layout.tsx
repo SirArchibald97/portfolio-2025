@@ -8,11 +8,10 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - Archie Margretts',
-    default:
-      'Archie Margretts - Software developer, game designer, community manager',
+    default: 'Archie Margretts - Software Developer & Game Designer',
   },
   description:
-    'I\’m Archie, a 22 year old developer and designer from the UK. I work on a wide variety of projects, from full-stack web development to game design!',
+    'I\’m Archie, a 22 year old developer and designer from the UK. I work on a wide variety of projects, primarily working on full-stack web development and game design!',
 }
 
 export default function RootLayout({
