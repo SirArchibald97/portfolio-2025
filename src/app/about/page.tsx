@@ -69,22 +69,22 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I'm a {getAge()} year software developer and game designer from
-              the UK, and I go by SirArchibald online. I've been coding since I
-              was 14 years old, starting out teaching myself HTML and JavaScript
-              in my bedroom, and now I have a BSc in Software Engineering and an
-              MA in Game Design.
+              I&apos;m a {getAge()} year software developer and game designer
+              from the UK, and I go by SirArchibald online. I&apos;ve been
+              coding since I was 14 years old, starting out teaching myself HTML
+              and JavaScript in my bedroom, and now I have a BSc in Software
+              Engineering and an MA in Game Design.
             </p>
             <p>
-              I've been pursuing software development for almost a decade,
+              I&apos;ve been pursuing software development for almost a decade,
               teaching myself a variety of languages and frameworks on top of my
-              formal studies at college and university. I've mainly focused on
-              full-stack web development and game design, but I've dabbled with
-              a wide range of other technologies.
+              formal studies at college and university. I&apos;ve mainly focused
+              on full-stack web development and game design, but I&apos;ve
+              dabbled with a wide range of other technologies.
             </p>
             <p>
-              I'm currently pursuing a career in software engineering, with a
-              focus on full-stack web development. I am also working as the
+              I&apos;m currently pursuing a career in software engineering, with
+              a focus on full-stack web development. I am also working as the
               Co-Founder and Programmer Lead for MontGo Studios, a Roblox studio
               startup, and several sides projects.
             </p>

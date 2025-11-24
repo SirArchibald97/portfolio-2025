@@ -106,7 +106,7 @@ function SocialLink({
 function Project({ project }: { project: Project }) {
   return (
     <Card as="article">
-      <Card.Title href={project.link.href}>{project.title}</Card.Title>
+      <Card.Title href={project.links[0].href}>{project.title}</Card.Title>
       <Card.Description>{project.description}</Card.Description>
       <Card.Cta>View project</Card.Cta>
     </Card>
@@ -258,9 +258,10 @@ export default async function Home() {
             Software developer, game designer, community manager.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I'm Archie, a 22 year old developer and designer from the UK. I work
-            on a wide variety of projects, from full-stack web development to
-            game design! Check out my latest projects and more about me below.
+            I&apos;m Archie, a 22 year old developer and designer from the UK. I
+            work on a wide variety of projects, from full-stack web development
+            to game design! Check out my latest projects and more about me
+            below.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
