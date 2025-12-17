@@ -85,8 +85,8 @@ export default function About() {
             <p>
               I&apos;m currently pursuing a career in software engineering, with
               a focus on full-stack web development. I am also working as the
-              Co-Founder and Programmer Lead for MontGo Studios, a Roblox studio
-              startup, and several sides projects.
+              Co-Founder and Technical Lead for MontGo Studios, a Roblox game studio,
+              and several sides projects.
             </p>
             <p>
               In my spare time, I enjoy playing FPS and survival games, watching
