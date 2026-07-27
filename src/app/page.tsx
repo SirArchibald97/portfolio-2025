@@ -8,7 +8,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from '@/components/SocialIcons'
 import avatar from '@/images/portrait.png'
 import montgoLogo from '@/images/logos/montgo_studios.png'
 import noxcrewLogo from '@/images/logos/noxcrew.png'
-import bbLogo from '@/images/logos/bb.webp'
+import compassLogo from '@/images/logos/compass.jpeg'
 import coopLogo from '@/images/logos/coop.jpeg'
 import newcastleLogo from '@/images/logos/newcastle.svg'
 import ucaLogo from '@/images/logos/uca.webp'
@@ -167,6 +167,16 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
+      company: 'Compass Education',
+      title: 'Software Engineer',
+      logo: compassLogo,
+      start: 'Jan 2026',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
+    },
+    {
       company: 'MontGo Studios',
       title: 'Co-Founder',
       logo: montgoLogo,
@@ -185,13 +195,6 @@ function Resume() {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
-    },
-    {
-      company: "Blair's Brainiacs",
-      title: 'Community Manager',
-      logo: bbLogo,
-      start: 'Nov 2020',
-      end: 'Jan 2023',
     },
     {
       company: 'Co-op',
